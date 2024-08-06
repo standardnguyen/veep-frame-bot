@@ -1,0 +1,12 @@
+Veep/
+output_frames/
+venv/
+venv/bin/activate
+test.mkv
+Veep2/
+
+*.pyc
+
+.~lock*
+
+.env
