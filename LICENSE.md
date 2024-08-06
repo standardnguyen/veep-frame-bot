@@ -14,7 +14,7 @@
 
 ## Standard’s Blacklist
 
-Individuals or entities on the Standard’s Blacklist (also referred to as the Blood Embargo list) are strictly prohibited from using, modifying, distributing, or engaging with this software.
+Individuals or entities on [Standard’s Blacklist](./STANDARDSBLACKLIST.md) (also referred to as the Blood Embargo list) are strictly prohibited from using, modifying, distributing, or engaging with this software.
 
 ### Penalties and Conditions
 
