@@ -10,3 +10,5 @@ Veep2/
 .~lock*
 
 .env
+
+VeepFrames/
