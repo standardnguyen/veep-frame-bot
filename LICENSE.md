@@ -3,12 +3,14 @@
 ## Permission and Conditions
 
 1. **Usage and Modification**
-    - You are permitted to use and modify this software for any purpose with appropriate credit to the original author(s).
+    - You are permitted to use, modify, and redistribute this software for any purpose, provided that redistribution is done under the same license and with appropriate credit to the original author(s).
 2. **Credit Requirements**
     - Proper credit must be provided, including:
         - The original author(s)' name(s)
         - A link to the original source (if applicable)
         - A note of any modifications made
+3. **License Continuity**
+    - Any redistribution of this software, whether modified or unmodified, must be accompanied by this license, ensuring the same terms apply to subsequent users.
 
 ## Standard’s Blacklist
 
