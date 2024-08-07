@@ -7,10 +7,10 @@ from frame_extractor import extract_frames
 def process_and_extract_key_frames(
     video_path,
     output_folder,
-    ssim_threshold=0.95,
-    ssim_threshold_top=0.95,
-    ssim_threshold_bottom=0.95,
-    histogram_similarity_threshold=0.7,
+    ssim_threshold=1.06,
+    ssim_threshold_top=1.491,
+    ssim_threshold_bottom=1.509,
+    histogram_similarity_threshold=0.9999,
     time_threshold=1.26,
     fps=30
 ):
