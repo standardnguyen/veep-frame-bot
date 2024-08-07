@@ -1,6 +1,6 @@
 # VeepBot
 
-https://www.twitter.com/thisthenwindsor
+https://www.twitter.com/veepframes
 
 Lets you post images to twitter in a consecutive fashion. Highly modified (and updated) version of laserdyke's [TWWbot](https://github.com/laserdyke/TWWbot).
 
