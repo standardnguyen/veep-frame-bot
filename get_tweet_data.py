@@ -21,17 +21,24 @@ def get_sorted_jpegs(folder_path):
 
 def extract_jpeg_info(jpeg_filepath):
     # Extract the directory and filename
-    directory, filename = os.path.split(jpeg_filepath)
+    frames_folder, filename = os.path.split(jpeg_filepath)
+    print(frames_folder)
+    directory = os.path.dirname(frames_folder)
+
+
 
     # Extract the season and episode folder
     _, episode_folder = os.path.split(directory)
+    
 
     # Parse the season number, episode number, and title from the folder name
     try:
-        season_part, episode_part_title = episode_folder.split(" Episode ")
-        title = episode_part_title.split(" - ")[1]
-        season_number = int(season_part.split(" ")[1])
-        episode_number = episode_part_title.split(" - ")[0]
+        season_and_episode, episode_title = episode_folder.split(" - ")
+        season_part, episode_number = season_and_episode.split("E")
+        
+        title = episode_title.strip()
+        season_number = int(season_part[1:].strip())
+        episode_number = int(episode_number.strip())
     except ValueError:
         print(
             "Error parsing the folder structure. Please ensure the format is correct."
@@ -41,7 +48,7 @@ def extract_jpeg_info(jpeg_filepath):
     # List all files in the episode folder and filter JPEGs
     jpeg_files = [
         f
-        for f in os.listdir(directory)
+        for f in os.listdir(frames_folder)
         if f.lower().endswith(".jpeg") or f.lower().endswith(".jpg")
     ]
 

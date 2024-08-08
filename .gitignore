@@ -13,3 +13,5 @@ Veep2/
 
 VeepFrames/
 progress.txt
+extracted_output/*
+temp/
