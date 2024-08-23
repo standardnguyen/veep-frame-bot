@@ -2,6 +2,8 @@ Veep/
 output_frames/
 venv/
 venv/bin/activate
+myenv/
+myenv/bin/activate
 test.mkv
 Veep2/
 
@@ -15,3 +17,6 @@ VeepFrames/
 progress.txt
 extracted_output/*
 temp/
+
+Silicon\ Valley/
+Silicon\ Valley\ Raw/
