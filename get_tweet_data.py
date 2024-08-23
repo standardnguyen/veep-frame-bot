@@ -1,4 +1,5 @@
 import os
+from showenv import show_name
 
 
 def get_sorted_jpegs(folder_path):
@@ -75,7 +76,7 @@ def get_tweet_data(folder_path, skips):
     t = extract_jpeg_info(jpeg_filepath)
 
     tweet_text = (
-        f'Veep S{t["season_number"]}E{t["episode_number"]}'
+        f'{show_name} S{t["season_number"]}E{t["episode_number"]}'
         + f' - {t["title"]} \nFrame {t["nth_frame"]} of {t["total_frames"]}'
     )
     return(jpeg_filepath, tweet_text)
