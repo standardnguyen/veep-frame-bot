@@ -1,9 +1,11 @@
 # VeepBot
 
-https://www.twitter.com/veepframes
+Lets you post images to bluesky in a consecutive fashion. 
 
-Lets you post images to twitter in a consecutive fashion. Highly modified (and updated) version of laserdyke's [TWWbot](https://github.com/laserdyke/TWWbot).
+Highly modified (and updated) version of laserdyke's [TWWbot](https://github.com/laserdyke/TWWbot).
 
-This project is under [Standard's Petty Software License v0.1](./LICENSE.md).
+There's also scripts in there that let you get from the "have a bunch of mp4s" stage to "have them broken up into images" stage.
+
+This project is under [Standard's Petty Software License v0.1](./LICENSE.md), which basically means taht every
 
 
